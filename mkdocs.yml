@@ -1,6 +1,6 @@
-site_name: WeHostVoIP Docs
+site_name: WeHostVoIP Docs PT
 
 theme:
     name: readthedocs
-    locale: en
+    locale: pt
     navigation_depth: 0
