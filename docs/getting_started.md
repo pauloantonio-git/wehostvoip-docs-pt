@@ -215,7 +215,7 @@ Para evitar fraudes, os assinantes não têm permissão por padrão para fazer c
 
 ## Etapa 15 Fazer uma chamada para um destino externo
 
-Disque 2092488700, você deve receber uma mensagem engraçada. Como estamos usando ogateway de teste sua chamada não está indo para o PSTN. Se você quiser que sua chamada vá para o PSTN, você deve adicionar sua própria operadora.
+Disque 22224444, você deve receber uma mensagem engraçada. Como estamos usando ogateway de teste sua chamada não está indo para o PSTN. Se você quiser que sua chamada vá para o PSTN, você deve adicionar sua própria operadora.
 
 ## Etapa 16 Testando as chamadas recebidas
 
