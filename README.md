@@ -9,4 +9,5 @@ The order to check the documentation is:
 3. [Gerindo chamadas entrantes com um plano de discagem visual](docs/handling_incoming_call.md)
 4. [Sincronizando suas contas com o GSuite]()
 5. [Sincronizando suas contas com o Azure AD]()
+6. [Estacionamento de Chamadas](handling_park.md)
 
