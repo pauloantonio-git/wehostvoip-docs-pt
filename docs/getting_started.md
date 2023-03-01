@@ -147,7 +147,7 @@ Para criar um tenant é muito simples, você começa adicionando um domínio. Po
 
 ![imagem](https://user-images.githubusercontent.com/4958202/153424359-8802e406-cc17-4cbf-80a2-57f716180184.png)
 
-Depois de especificar o domínio, você deve especificar os controladores de cliente, operadora, administradores, plano de discagem e de borda de sessão. É um formulário muito rápido. Cada ISP deve negociar seu próprio SBC para operações dependendo do tráfego esperado. Para fins de demonstração, você pode usar demo.wehostvoip.io na porta 61110. Este SBC limita a duração das chamadas em 30 segundos e as chamadas por segundo a 1 chamada a cada 30s. Basta testar e ver se o WeHostVoIP se encaixa no seu modelo de negócios.
+Depois de especificar o domínio, você deve especificar os controladores de cliente, operadora, administradores, plano de discagem e de borda de sessão. É um formulário muito rápido. O SBC compartilhado para o Brasil é sbc-br.wehostvoip.io:60110. Se você necessitar de um SBC não compartilhado entre em contato. Consulte sobre os planos gratuítos. 
 
 ## Etapa 9 Acessando seu tenant
 
