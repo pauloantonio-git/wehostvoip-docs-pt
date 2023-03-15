@@ -82,7 +82,7 @@ No final do processo você verá a tela de configuração do ISP
 
 Vídeo, o video do processo de onboarding pode ser visto em:
 
-[![Watch the video](https://youtu.be/8hhOX1ilF9o)
+[![Watch the video](https://i9.ytimg.com/vi_webp/8hhOX1ilF9o/mq1.webp?sqp=CMS4x6AG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC4gMCh_MA8=&rs=AOn4CLDki5r-QMwWlO8X_d25cIAlbMol-A)](https://youtu.be/8hhOX1ilF9o)
 
 
 ## Etapa 2 Criando um plano de serviço
