@@ -48,7 +48,7 @@ Finalmente a interface do telefone é um WebRTC onde você pode fazer ou receber
 
 Para criar um novo ISP, você deve iniciar o processo de inscrição no portal isp.wehostvoip.io
 
-![wehostvoip-signup-page](https://user-images.githubusercontent.com/4958202/153394573-98053c2c-de18-4f68-bb54-8a3854d751b8.png)
+![image](https://user-images.githubusercontent.com/4958202/225346057-b9e16205-acaf-437b-a137-d54ed41cbcaa.png)
 
 Depois de pressionar o cadastro, o sistema solicitará que você forneça um e-mail para confirmação
 
@@ -56,25 +56,34 @@ Depois de pressionar o cadastro, o sistema solicitará que você forneça um e-m
 
 Agora você tem que ir ao seu e-mail e clicar no link de confirmação do e-mail. Depois de pressionar o link, você verá o link de configuração do ISP.
 
-![wehostvoip-1st-onbording](https://user-images.githubusercontent.com/4958202/153395980-67dcd005-d5c5-4acb-a1ff-256649f46613.png)
+![image](https://user-images.githubusercontent.com/4958202/225346430-34c9e499-5ecf-41ff-8d64-9e3e1441a540.png)
 
 Forneça um nome completo e senha para o nome de usuário e pressione próximo
 
-![wehostvoip-2nd-onboarding](https://user-images.githubusercontent.com/4958202/153396350-df093e03-9dbd-45a9-b795-f84bdf99c170.png)
+![image](https://user-images.githubusercontent.com/4958202/225346612-222882e7-c803-421e-9940-63aa3c1d6f91.png)
 
 Agora, existem parâmetros importantes aqui. O parâmetro mais importante é o namespace. Quando você começar a usar o wehostvoip, para fazer login no sistema, você precisará do seu próprio namespace. Escolha um namespace e anote o nome que você precisará no futuro. Também importante é a moeda. Preencha o restante das informações e pressione próximo.
 
-![wehostvoip-3rd-onboarding](https://user-images.githubusercontent.com/4958202/153397395-95d4c7e1-645b-4c67-a409-0db6f95fd563.png)
+![image](https://user-images.githubusercontent.com/4958202/225346784-c093b3df-5872-4cb4-bbb2-f3b8eca72a85.png)
 
 Basta preencher seus dados de contato e pressionar próximo
 
-![wehostvoip-4th-onboarding](https://user-images.githubusercontent.com/4958202/153398003-c74bfb17-f734-445d-ad53-459d3525d466.png)
+![image](https://user-images.githubusercontent.com/4958202/225347049-1820c862-72c8-4fd6-9784-c755d364ed7b.png)
 
 Agora você pode personalizar seus logotipos e cores. Após fazer isso, pressione validar para verificar se você preencheu todos os dados necessários.
 
-Depois de terminar, você poderá ver a interface do ISP
+Depois de terminar, você deve escolher um plano, os valores dos planos estão em dólares, contate-nos se você desejar um plano em reais. 
 
-![isf-after-onboarding](https://user-images.githubusercontent.com/4958202/153399595-0cd0dd4a-94a8-4167-8aa7-e2ab0adcd66c.png)
+![image](https://user-images.githubusercontent.com/4958202/225347424-1d5fab24-5fbd-4cc7-b4dd-70e3226dbcb1.png)
+
+No final do processo você verá a tela de configuração do ISP
+
+![image](https://user-images.githubusercontent.com/4958202/225347697-fa16ae42-e442-4dbb-8777-e189465d5744.png)
+
+Vídeo, o video do processo de onboarding pode ser visto em:
+
+[![Watch the video](https://youtu.be/8hhOX1ilF9o)
+
 
 ## Etapa 2 Criando um plano de serviço
 
