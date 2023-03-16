@@ -109,9 +109,9 @@ Depois de criar um plano de serviço, agora você pode criar um cliente. Basta p
 
 Há coisas importantes neste menu. O número máximo de assinantes e o número máximo de chamadas simultâneas. Você pode controlar quantas licenças cada usuário está usando de você. Você deve selecionar o plano de serviço e todos os outros campos são autoexplicativos.
 
-## Etapa 4 Criando uma operadora
+## Etapa 4 Adicionando uma operadora
 
-Agora é hora de especificar onde você encerrará suas chamadas. Para este início vamos encerrar as chamadas usando um gateway de teste chamado sipa.flagonc.com. Você pode testar as chamadas recebidas registrando um telefone no mesmo servidor. Vou fornecer instruções no ponto certo. Por enquanto vamos criar um gateway e uma operadora. Uma operadora pode ter mais de um gateway para redundância, mas o sistema não faz rota por prefixo. Esta é a função do softswitch ISP ou gateway que encerra as chamadas. Não queríamos ter redundância nessas funções.
+Agora é hora de especificar onde você terminará suas chamadas. Para este início vamos terminar as chamadas usando um gateway de teste chamado sipa.flagonc.com. Você pode testar as chamadas recebidas registrando um telefone no mesmo servidor. Vou fornecer instruções no ponto certo. Por enquanto vamos criar um gateway e uma operadora. Uma operadora pode ter mais de um gateway para redundância, mas o sistema não faz rota por prefixo. Esta é a função do softswitch ISP ou gateway que encerra as chamadas. Não queríamos ter redundância nessas funções.
 
 Ao criar uma operadora, o primeiro passo é criar o gateway
 
@@ -228,4 +228,4 @@ Disque 22224444, você deve receber uma mensagem engraçada. Como estamos usando
 
 ## Etapa 16 Testando as chamadas recebidas
 
-Testar uma chamada recebida é um pouco mais difícil. Se você adicionou uma transportadora real e você tem um número real, o processo é muito fácil. No entanto, para os propósitos deste Guia de introdução, usaremos um softphone conectado ao gateway de teste para conectar-se ao nosso SBC demo.wehostvoip.io.
+Testar uma chamada recebida é um pouco mais difícil. Se você adicionou uma transportadora real e você tem um número real, o processo é muito fácil. No entanto, para os propósitos deste Guia de introdução, usaremos um softphone conectado ao gateway de teste para conectar-se ao nosso SBC sbc-br.wehostvoip.io
