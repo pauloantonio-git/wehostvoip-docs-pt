@@ -9,7 +9,7 @@ Seguindo este guia, você poderá iniciar uma operação de Cloud PBX em poucas 
   - [Etapa 1 Criando um novo ISP](#etapa-1-criando-um-novo-isp)
   - [Etapa 2 Criando um plano de serviço](#etapa-2-criando-um-plano-de-serviço)
   - [Etapa 3 Criando um cliente](#etapa-3-criando-um-cliente)
-  - [Etapa 4 Criando uma operadora](#etapa-4-criando-uma-operadora)
+  - [Etapa 4 Criando uma operadora](#etapa-4-adicionando-uma-operadora)
   - [Etapa 5 Criando um plano de discagem](#etapa-5-criando-um-plano-de-discagem)
   - [Etapa 6 Adicionar números ao inventário](#etapa-6-adicionar-números-ao-inventário)
   - [Etapa 7 Criando domínios](#etapa-7-criando-domínios)
@@ -113,17 +113,24 @@ Há coisas importantes neste menu. O número máximo de assinantes e o número m
 
 Agora é hora de especificar onde você terminará suas chamadas. Para este início vamos terminar as chamadas usando um gateway de teste chamado sipa.flagonc.com. Você pode testar as chamadas recebidas registrando um telefone no mesmo servidor. Vou fornecer instruções no ponto certo. Por enquanto vamos criar um gateway e uma operadora. Uma operadora pode ter mais de um gateway para redundância, mas o sistema não faz rota por prefixo. Esta é a função do softswitch ISP ou gateway que encerra as chamadas. Não queríamos ter redundância nessas funções.
 
-Ao criar uma operadora, o primeiro passo é criar o gateway
+Ao criar uma operadora, o primeiro passo é criar o gateway e em seguida adicionar a operadora. Uma operadora pode ter mais de um gateway para no caso de falha do primeiro o segundo ser acinoado. 
 
-![imagem](https://user-images.githubusercontent.com/4958202/153416460-90f10b2b-5adf-4121-afb3-324f10d3a225.png)
+![image](https://user-images.githubusercontent.com/4958202/225478963-92ba953d-b81e-4a43-90b7-90ec94e14cc4.png)
 
-Realmente depende da operadora que termina suas chamadas. Você pode ter que retirar alguns números ou números de prefixo antes de entregar à sua operadora. A configuração do gateway permite que você faça isso. A autenticação deve ser por IP, não enviamos credenciais digest com base em nome de usuário e senha.
+**Nome** Ao criar um gateway a primeira coisa que você adiciona é o nome, por exemplo, primario 
+**Endereço** Em seguida adiciona o endereço e a porta do gateway, por exemplo: sipa.flagonc.com:5600
+**Display** Display é a parte em texto do indentificador de chamada, também chamado de FROM diaplay
+**Strip de Saída** Remover N dígitos do número e.164 ou original antes de enviar para o gateway
+**Prefixo de Saída** Adicionar esta string do lado esquerdo do número antes de enviar para o gateway, ocorre após o strip
+**Strip de Entrada** Remover N dígitos do número que está chegando na porta de entrada do SBC
+**Prefixo de Entrada** Adicionar esta string do lado esquero do número entrante antes de entrar no SBC, ocorre após o strip
+**Dominio de Origem** Também chamado de From domain, muitas vezes necessário para a autenticação, normalmente o endereço do gateway
+**Usuário de Origem** Também chamado de From user, é o caller ID e é frequentemente usado para validar a chamada, ver com sua operadora
+**Aplicar sobre** Usada apenas para o número de saída. Aplicar as regras sobre o número e164 interno ou sobre o número originalmente discado
+**Atributos** Atributos opcionais, reservado para o suporte técnico
+**Adicionar PAI** - Adicionar o P-Asserted-Identtity. Isto pode ser necessário em algumas operadoras
 
-Após criar o gateway, associe-o à operadora e salve.
-
-![imagem](https://user-images.githubusercontent.com/4958202/153416615-365c5086-f762-48a5-8de5-66a15547cbe9.png)
-
-Veja, muito rápido, a operadora é criada
+Ao terminar de prencher salve o gateway e salve a operadora. Se precisar de dois gateways crie os dois antes de salvar. 
 
 ## Etapa 5 Criando um plano de discagem
 
