@@ -113,7 +113,7 @@ Há coisas importantes neste menu. O número máximo de assinantes e o número m
 
 Agora é hora de especificar onde você terminará suas chamadas. Para este início vamos terminar as chamadas usando um gateway de teste chamado sipa.flagonc.com. Você pode testar as chamadas recebidas registrando um telefone no mesmo servidor. Vou fornecer instruções no ponto certo. Por enquanto vamos criar um gateway e uma operadora. Uma operadora pode ter mais de um gateway para redundância, mas o sistema não faz rota por prefixo. Esta é a função do softswitch ISP ou gateway que encerra as chamadas. Não queríamos ter redundância nessas funções.
 
-Ao criar uma operadora, o primeiro passo é criar o gateway e em seguida adicionar a operadora. Uma operadora pode ter mais de um gateway para no caso de falha do primeiro o segundo ser acinoado. 
+Ao criar uma operadora, o primeiro passo é criar o gateway e em seguida adicionar a operadora. Uma operadora pode ter mais de um gateway para no caso de falha do primeiro o segundo ser acionado. 
 
 ![image](https://user-images.githubusercontent.com/4958202/225478963-92ba953d-b81e-4a43-90b7-90ec94e14cc4.png)
 
