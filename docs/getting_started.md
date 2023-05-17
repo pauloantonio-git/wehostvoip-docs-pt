@@ -34,7 +34,7 @@ Console de telefone - https://phone.wehostvoip.io \
 
 No console do ISP (https://isp.wehostvoip.io) você configura os planos mestres para o provedor de Cloud PBX. Você vai conectar operadoras, criar planos de serviço, ajustar regras de normalização para números e muitas tarefas que você terá que fazer apenas uma vez.
 
-![wehostvoip-isp](https://user-images.githubusercontent.com/4958202/153396697-236b7908-6c70-4fe8-8357-c304e5be5841.png)
+![image](https://user-images.githubusercontent.com/4958202/225347049-1820c862-72c8-4fd6-9784-c755d364ed7b.png)
 
 O console do tenant é realmente a interface do PBX, você criará um ou vários tenants por cliente. Não há limites para o número de tenants criados.
 
@@ -66,11 +66,9 @@ Agora, existem parâmetros importantes aqui. O parâmetro mais importante é o n
 
 ![image](https://user-images.githubusercontent.com/4958202/225346784-c093b3df-5872-4cb4-bbb2-f3b8eca72a85.png)
 
-Basta preencher seus dados de contato e pressionar próximo
+Agora você pode personalizar seus logotipos e cores. Após fazer isso, pressione validar para verificar se você preencheu todos os dados necessários.
 
 ![image](https://user-images.githubusercontent.com/4958202/225347049-1820c862-72c8-4fd6-9784-c755d364ed7b.png)
-
-Agora você pode personalizar seus logotipos e cores. Após fazer isso, pressione validar para verificar se você preencheu todos os dados necessários.
 
 Depois de terminar, você deve escolher um plano, os valores dos planos estão em dólares, contate-nos se você desejar um plano em reais. 
 
