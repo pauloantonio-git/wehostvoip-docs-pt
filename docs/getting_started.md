@@ -162,7 +162,7 @@ um tenant para atender seus clientes.
 
 Para criar um tenant é muito simples, você começa adicionando um domínio. Pode ser um subdomínio do seu namespace ou o domínio do cliente previamente criado e verificado. Vamos usar customer1 aqui como o domínio.
 
-![imagem](https://user-images.githubusercontent.com/4958202/153424359-8802e406-cc17-4cbf-80a2-57f716180184.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/f30bf22e-12d5-4bb5-8f15-c64d3d3e50a3)
 
 Depois de especificar o domínio, você deve especificar os controladores de cliente, operadora, administradores, plano de discagem e de borda de sessão. É um formulário muito rápido. O SBC compartilhado para o Brasil é sbc-br.wehostvoip.io:60110. Se você necessitar de um SBC não compartilhado entre em contato. Consulte sobre os planos gratuítos. 
 
