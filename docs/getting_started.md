@@ -7,9 +7,9 @@ Seguindo este guia, você poderá iniciar uma operação de Cloud PBX em poucas 
 - [Introdução ao WeHostVoIP](#introdução-ao-wehostvoip)
   - [Conceitos WeHostVoIP](#conceitos-wehostvoip)
   - [Etapa 1 Criando um novo ISP](#etapa-1-criando-um-novo-isp)
-  - [Etapa 2 Criando um plano de serviço](#etapa-2-criando-um-plano-de-serviço)
-  - [Etapa 3 Criando um cliente](#etapa-3-criando-um-cliente)
-  - [Etapa 4 Criando uma operadora](#etapa-4-adicionando-uma-operadora)
+  - [Etapa 2 Criando uma operadora](#etapa-2-adicionando-uma-operadora)
+  - [Etapa 3 Criando um plano de serviço](#etapa-3-criando-um-plano-de-serviço)
+  - [Etapa 4 Criando um cliente](#etapa-4-criando-um-cliente)
   - [Etapa 5 Criando um plano de discagem](#etapa-5-criando-um-plano-de-discagem)
   - [Etapa 6 Adicionar números ao inventário](#etapa-6-adicionar-números-ao-inventário)
   - [Etapa 7 Criando domínios](#etapa-7-criando-domínios)
@@ -83,32 +83,7 @@ Vídeo, o video do processo de onboarding pode ser visto em:
 
 [![Watch the video](https://i9.ytimg.com/vi_webp/8hhOX1ilF9o/mq1.webp?sqp=CMS4x6AG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC4gMCh_MA8=&rs=AOn4CLDki5r-QMwWlO8X_d25cIAlbMol-A)](https://youtu.be/8hhOX1ilF9o)
 
-
-## Etapa 2 Criando um plano de serviço
-
-O plano de serviço é o coração do sistema. Você poderá alterar seus clientes usando um sistema pré-pago ou pós-pago. Você pode começar com algo tão simples quanto cobrar por mês e depois criar planos mais sofisticados para cobrar por trecho ou por prefixo. No início, vamos criar um plano simples para cobrar apenas uma taxa mensal.
-
-Pressione, criar plano de serviço para começar a criar um plano.
-
-Nomeie seu primeiro plano de serviço como Padrão.
-
-![wehostvoip-service-plan-1](https://user-images.githubusercontent.com/4958202/153400844-7030dc71-5e6b-4dc4-ad17-34096eb36f41.png)
-
-Para os próximos dois menus abaixo, marque a caixa "No Service Deck", "No Rate Deck"
-
-![service-plan-2](https://user-images.githubusercontent.com/4958202/153401140-0272f11b-7129-42e2-917a-b4545615d1b3.png)
-
-Em seguida, pressione Criar Plano de Serviço, não saia da página sem criar o plano de serviço.
-
-## Etapa 3 Criando um cliente
-
-Depois de criar um plano de serviço, agora você pode criar um cliente. Basta pressionar o menu do cliente no lado direito e pressionar criar para criar um novo cliente. Cliente é um de seus clientes que comprará um serviço de PBX. Antes de criar um tenant, você precisa criar um cliente.
-
-![wehostvoip-customer-01](https://user-images.githubusercontent.com/4958202/153402853-53436e6e-0d48-4e10-a6c8-e13993d0be3b.png)
-
-Há coisas importantes neste menu. O número máximo de assinantes e o número máximo de chamadas simultâneas. Você pode controlar quantas licenças cada usuário está usando de você. Você deve selecionar o plano de serviço e todos os outros campos são autoexplicativos.
-
-## Etapa 4 Adicionando uma operadora
+## Etapa 1 Adicionando uma operadora
 
 Agora é hora de especificar onde você terminará suas chamadas. Para este início vamos terminar as chamadas usando um gateway de teste chamado sipa.flagonc.com. Você pode testar as chamadas recebidas registrando um telefone no mesmo servidor. Vou fornecer instruções no ponto certo. Por enquanto vamos criar um gateway e uma operadora. Uma operadora pode ter mais de um gateway para redundância, mas o sistema não faz rota por prefixo. Esta é a função do softswitch ISP ou gateway que encerra as chamadas. Não queríamos ter redundância nessas funções.
 
@@ -130,6 +105,30 @@ Ao criar uma operadora, o primeiro passo é criar o gateway e em seguida adicion
 **Adicionar PAI** - Adicionar o P-Asserted-Identtity. Isto pode ser necessário em algumas operadoras\
 
 Ao terminar de prencher salve o gateway e salve a operadora. Se precisar de dois gateways crie os dois antes de salvar. 
+
+## Etapa 3 Criando um plano de serviço
+
+O plano de serviço é o coração do sistema. Você poderá alterar seus clientes usando um sistema pré-pago ou pós-pago. Você pode começar com algo tão simples quanto cobrar por mês e depois criar planos mais sofisticados para cobrar por trecho ou por prefixo. No início, vamos criar um plano simples para cobrar apenas uma taxa mensal.
+
+Pressione, criar plano de serviço para começar a criar um plano.
+
+Nomeie seu primeiro plano de serviço como Padrão.
+
+![wehostvoip-service-plan-1](https://user-images.githubusercontent.com/4958202/153400844-7030dc71-5e6b-4dc4-ad17-34096eb36f41.png)
+
+Para os próximos dois menus abaixo, marque a caixa "No Service Deck", "No Rate Deck"
+
+![service-plan-2](https://user-images.githubusercontent.com/4958202/153401140-0272f11b-7129-42e2-917a-b4545615d1b3.png)
+
+Em seguida, pressione Criar Plano de Serviço, não saia da página sem criar o plano de serviço.
+
+## Etapa 4 Criando um cliente
+
+Depois de criar um plano de serviço, agora você pode criar um cliente. Basta pressionar o menu do cliente no lado direito e pressionar criar para criar um novo cliente. Cliente é um de seus clientes que comprará um serviço de PBX. Antes de criar um tenant, você precisa criar um cliente.
+
+![wehostvoip-customer-01](https://user-images.githubusercontent.com/4958202/153402853-53436e6e-0d48-4e10-a6c8-e13993d0be3b.png)
+
+Há coisas importantes neste menu. O número máximo de assinantes e o número máximo de chamadas simultâneas. Você pode controlar quantas licenças cada usuário está usando de você. Você deve selecionar o plano de serviço e todos os outros campos são autoexplicativos.
 
 ## Etapa 5 Criando um plano de discagem
 
