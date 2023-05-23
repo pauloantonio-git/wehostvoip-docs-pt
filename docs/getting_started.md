@@ -129,6 +129,7 @@ Em seguida, pressione Criar Plano de Serviço, não saia da página sem criar o 
 ## Etapa 4 Criando um cliente
 
 Depois de criar um plano de serviço, agora você pode criar um cliente. Basta pressionar o menu do cliente no lado direito e pressionar criar para criar um novo cliente. Cliente é um de seus clientes que comprará um serviço de PBX. Antes de criar um tenant, você precisa criar um cliente.
+
 Há coisas importantes neste menu. O número máximo de assinantes e o número máximo de chamadas simultâneas. Você pode controlar quantas licenças cada usuário está usando de você. Você deve selecionar o plano de serviço e todos os outros campos são autoexplicativos.
 
 ![wehostvoip-customer-01](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/21c8c8ef-1e3b-4d94-8b95-04de49459eac)
