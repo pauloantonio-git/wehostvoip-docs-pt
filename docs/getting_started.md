@@ -38,7 +38,7 @@ No console do ISP (https://isp.wehostvoip.io) você configura os planos mestres 
 
 O console do tenant é realmente a interface do PBX, você criará um ou vários tenants por cliente. Não há limites para o número de tenants criados.
 
-![wehostvoip-subscribers](https://user-images.githubusercontent.com/4958202/153419253-5f00900a-9c67-4615-994c-d8b091ced713.png)
+![wehostvoip-subscribers](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/f6a9474d-7e92-4c1d-adb9-31d0d976ca48)
 
 Finalmente a interface do telefone é um WebRTC onde você pode fazer ou receber chamadas. O sistema também suporta quase qualquer telefone ou dispositivo SIP.
 
