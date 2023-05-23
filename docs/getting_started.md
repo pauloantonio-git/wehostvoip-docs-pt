@@ -42,7 +42,7 @@ O console do tenant é realmente a interface do PBX, você criará um ou vários
 
 Finalmente a interface do telefone é um WebRTC onde você pode fazer ou receber chamadas. O sistema também suporta quase qualquer telefone ou dispositivo SIP.
 
-![imagem](https://user-images.githubusercontent.com/4958202/153306639-b3a04b17-c07e-49af-bb0d-7898f25b1499.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/d43509c0-dd56-4162-b7a0-e112fa468e5f)
 
 ## Etapa 1 Criando um novo ISP
 
