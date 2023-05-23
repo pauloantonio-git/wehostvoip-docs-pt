@@ -66,7 +66,8 @@ Agora, existem parâmetros importantes aqui. O parâmetro mais importante é o n
 
 ![image](https://user-images.githubusercontent.com/4958202/225346784-c093b3df-5872-4cb4-bbb2-f3b8eca72a85.png)
 
-Agora você pode personalizar seus logotipos e cores. Após fazer isso, pressione validar para verificar se você preencheu todos os dados necessários.
+Agora você pode personalizar seus logotipos e cores. 
+Para acessar novamente, clicar no menu de opções no canto superior direito, Configurações, Tema.
 
 ![image](https://user-images.githubusercontent.com/4958202/225347049-1820c862-72c8-4fd6-9784-c755d364ed7b.png)
 
