@@ -77,7 +77,7 @@ Depois de terminar, você deve escolher um plano, os valores dos planos estão e
 
 No final do processo você verá a tela de configuração do ISP
 
-![image](https://user-images.githubusercontent.com/4958202/225347697-fa16ae42-e442-4dbb-8777-e189465d5744.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/e5707f3e-e2f6-4583-9897-5c722cbaf81f)
 
 Vídeo, o video do processo de onboarding pode ser visto em:
 
