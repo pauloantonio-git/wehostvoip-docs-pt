@@ -114,11 +114,15 @@ Pressione, criar plano de serviço para começar a criar um plano.
 
 Nomeie seu primeiro plano de serviço como Padrão.
 
-![wehostvoip-service-plan-1](https://user-images.githubusercontent.com/4958202/153400844-7030dc71-5e6b-4dc4-ad17-34096eb36f41.png)
+![wehostvoip-service-plan-1](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/4b9cae38-9f23-4b79-9662-cc22e3721f86)
 
+
+Selecione a Operadora e Plano de discagem.
 Para os próximos dois menus abaixo, marque a caixa "No Service Deck", "No Rate Deck"
 
-![service-plan-2](https://user-images.githubusercontent.com/4958202/153401140-0272f11b-7129-42e2-917a-b4545615d1b3.png)
+
+![service-plan-2](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/18fc8b74-d05a-4bd9-aa84-170fe3d673ad)
+
 
 Em seguida, pressione Criar Plano de Serviço, não saia da página sem criar o plano de serviço.
 
