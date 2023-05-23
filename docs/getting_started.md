@@ -91,18 +91,18 @@ Ao criar uma operadora, o primeiro passo é criar o gateway e em seguida adicion
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/1fc2e843-495f-4d2e-a8ca-51bd26023c0a)
 
-**Nome** Ao criar um gateway a primeira coisa que você adiciona é o nome, por exemplo, primario
-**Endereço** Em seguida adiciona o endereço e a porta do gateway, por exemplo: sipa.flagonc.com:5600
-**Display** Display é a parte em texto do indentificador de chamada, também chamado de FROM diaplay
-**Strip de Saída** Remover N dígitos do número e.164 ou original antes de enviar para o gateway
-**Prefixo de Saída** Adicionar esta string do lado esquerdo do número antes de enviar para o gateway, ocorre após o strip
-**Strip de Entrada** Remover N dígitos do número que está chegando na porta de entrada do SBC
-**Prefixo de Entrada** Adicionar esta string do lado esquero do número entrante antes de entrar no SBC, ocorre após o strip
-**Dominio de Origem** Também chamado de *From domain*, muitas vezes necessário para a autenticação, normalmente o endereço do gateway
-**Usuário de Origem** Também chamado de *From user*, é o caller ID e é frequentemente usado para validar a chamada, ver com sua operadora
-**Aplicar sobre** Usada apenas para o número de saída. Aplicar as regras sobre o número e164 interno ou sobre o número originalmente discado
+**Nome** Ao criar um gateway a primeira coisa que você adiciona é o nome, por exemplo, primario\
+**Endereço** Em seguida adiciona o endereço e a porta do gateway, por exemplo: sipa.flagonc.com:5600\
+**Display** Display é a parte em texto do indentificador de chamada, também chamado de FROM diaplay\
+**Strip de Saída** Remover N dígitos do número e.164 ou original antes de enviar para o gateway\
+**Prefixo de Saída** Adicionar esta string do lado esquerdo do número antes de enviar para o gateway, ocorre após o strip\
+**Strip de Entrada** Remover N dígitos do número que está chegando na porta de entrada do SBC\
+**Prefixo de Entrada** Adicionar esta string do lado esquero do número entrante antes de entrar no SBC, ocorre após o strip\
+**Dominio de Origem** Também chamado de *From domain*, muitas vezes necessário para a autenticação, normalmente o endereço do gateway\
+**Usuário de Origem** Também chamado de *From user*, é o caller ID e é frequentemente usado para validar a chamada, ver com sua operadora\
+**Aplicar sobre** Usada apenas para o número de saída. Aplicar as regras sobre o número e164 interno ou sobre o número originalmente discado\
 **Atributos** Atributos opcionais, reservado para o suporte técnico\
-**Adicionar PAI** - Adicionar o P-Asserted-Identtity. Isto pode ser necessário em algumas operadoras
+**Adicionar PAI** - Adicionar o P-Asserted-Identtity. Isto pode ser necessário em algumas operadoras\
 
 Ao terminar de prencher salve o gateway e salve a operadora. Se precisar de dois gateways crie os dois antes de salvar. 
 
