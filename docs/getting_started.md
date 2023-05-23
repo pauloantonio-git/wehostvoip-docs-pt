@@ -117,7 +117,7 @@ Nomeie seu primeiro plano de serviço como Padrão.
 ![wehostvoip-service-plan-1](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/4b9cae38-9f23-4b79-9662-cc22e3721f86)
 
 
-Selecione a Operadora e Plano de discagem.
+Selecione a Operadora e Plano de discagem. \
 Para os próximos dois menus abaixo, marque a caixa "No Service Deck", "No Rate Deck"
 
 
