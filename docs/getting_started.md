@@ -89,7 +89,7 @@ Agora é hora de especificar onde você terminará suas chamadas. Para este iní
 
 Ao criar uma operadora, o primeiro passo é criar o gateway e em seguida adicionar a operadora. Uma operadora pode ter mais de um gateway para no caso de falha do primeiro o segundo ser acionado. 
 
-![image](https://user-images.githubusercontent.com/4958202/225478963-92ba953d-b81e-4a43-90b7-90ec94e14cc4.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/1fc2e843-495f-4d2e-a8ca-51bd26023c0a)
 
 **Nome** Ao criar um gateway a primeira coisa que você adiciona é o nome, por exemplo, primario \
 **Endereço** Em seguida adiciona o endereço e a porta do gateway, por exemplo: sipa.flagonc.com:5600\
