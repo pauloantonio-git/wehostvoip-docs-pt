@@ -212,7 +212,7 @@ Agora, na tabela de assinantes, vamos criar dois usuários, Alice e Bob. Há mui
 
 Para cadastrar Alice no webphone, basta acessar a url https://phone.wehostvoip.io e adicionar o nome e a senha. Neste ponto, ainda não podemos fazer login com o Google ou o Azure. Para isso é necessário registrar e verificar um domínio. Você só poderá fazer login com o Google ou AzureAd se tiver um domínio sincronizado. Temos um capítulo especial para isso.
 
-![imagem](https://user-images.githubusercontent.com/104862214/240305062-d43509c0-dd56-4162-b7a0-e112fa468e5f.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/eb58b0c0-52fd-4467-9e46-31008c3957b5)
 
 Depois de fazer o login, você verá um círculo verde no canto superior direito.
 
