@@ -17,4 +17,4 @@
 
 ## Intelbras TIP 125i
 
-![intelbras_tip125i](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/89bc56d0-7e02-4867-8be9-b50ee789c1d5)
+![Instalbras_TIP125i](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/89bc56d0-7e02-4867-8be9-b50ee789c1d5)
