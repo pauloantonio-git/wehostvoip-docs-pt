@@ -237,7 +237,16 @@ Basta chamar Alice e Bob por seus nomes. Você também pode usar seus apelidos a
 
 Para evitar fraudes, os assinantes não têm permissão por padrão para fazer chamadas PSTN. Você terá que autorizar os países ou prefixos para permitir chamadas de saída. Nós tornamos esse processo muito fácil. Em nosso cas estamos adicionando EUA. Quando você seleciona EUA, ele seleciona todos os códigos de área da NANPA pertencentes aos EUA e não carrega destinos do Caribe frequentemente usados ​​para fraude.
 
-![imagem](https://user-images.githubusercontent.com/4958202/153725725-aba5e01b-2a59-4c56-8357-9b3f7391933b.png)
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/9d6c33b4-f11f-42c5-b1e3-e7dbe4fdd8df)
+
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/dd257eb8-1862-47c7-ab51-c402de853564)
+
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/89a2e946-a539-477d-9966-fcfbc36ae479)
+
+Após adicionar os códigos/países clicar em salvar.
+
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/0c60c9c1-c211-4de9-9700-10f49c8637f9)
+
 
 ## Etapa 15 Fazer uma chamada para um destino externo
 
