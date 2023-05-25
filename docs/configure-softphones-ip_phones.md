@@ -5,7 +5,7 @@
 - [intelbras_tip125i](#Instalbras_TIP125i)
 
 
-## We^Voip
+## WeHostVoip
 
 ![wehostvoip](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/2afecdcc-258f-4e14-a404-7103a54196f2)
 
