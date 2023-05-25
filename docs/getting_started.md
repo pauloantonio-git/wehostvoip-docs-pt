@@ -230,7 +230,7 @@ Após a instalação, faça login usando o nome de usuário e a senha do **softp
 
 [Utilizando outro Softphone/Telefone](configure-softphones-ip_phones.md)
 
-:doc:`Utilizando outro Softphone/Telefone <sphinx:configure-softphones-ip_phones.md>`.
+:doc:`Utilizando outro Softphone/Telefone <sphinx:configure-softphones-ip_phones.md>`
 
 ## Etapa 13 Faça uma chamada entre telefones
 
