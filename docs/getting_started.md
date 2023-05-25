@@ -226,8 +226,10 @@ Após a instalação, faça login usando o nome de usuário e a senha do **softp
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/9d01901c-a650-48f7-9d41-beede9144bb8)
 
-
 ![imagem](https://user-images.githubusercontent.com/4958202/153725448-8a30f3bf-c243-46b4-8fd7-d2bd97c47749.png)
+
+
+`Utilizando outros Softphone/Telefone <docs/configure-softphones-ip_phones.md>`_
 
 ## Etapa 13 Faça uma chamada entre telefones
 
