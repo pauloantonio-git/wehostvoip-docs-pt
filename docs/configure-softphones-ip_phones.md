@@ -1,7 +1,9 @@
-# Guia de configuração de Softphones e Telefones IP
+# Guia de configuração Conta SIP de Softphones e Telefones IP
 
-- [wehostvoip](#wehostvoip)
-- [microsip](#microsip)
+- [wehostvoip](#WeHostVoip)
+- [microsip](#MicroSIP)
+- [intelbras_tip125i](#Instalbras TIP125i)
+
 
 ## We^Voip
 
@@ -12,3 +14,7 @@
 
 ![microsip](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/2f477d8c-7449-49ed-8bd1-66a3fefcad2d)
 
+
+## Intelbras TIP 125i
+
+![intelbras_tip125i](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/89bc56d0-7e02-4867-8be9-b50ee789c1d5)
