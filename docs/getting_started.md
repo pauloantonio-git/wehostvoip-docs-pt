@@ -203,6 +203,9 @@ Agora, na tabela de assinantes, vamos criar dois usuários, Alice e Bob. Há mui
 * Máximo de chamadas simultâneas - "Quantidade máxima de chamadas simultâneas"
 * Tempo limite de discagem - "Quanto esperar para o usuário atender uma chamada"
 
+![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/4cdf6ecc-c0ec-46c8-91ee-c271354b03bb)
+
+
 ![imagem](https://user-images.githubusercontent.com/4958202/153440169-18a7170a-763a-470e-b725-1dceda01489a.png)
 
 **Não esqueça de adicionar uma senha para SIP e para o Softphone, anote a senha, você precisará da senha antes**
