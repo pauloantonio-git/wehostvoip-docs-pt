@@ -79,7 +79,7 @@ No final do processo você verá a tela de configuração do ISP
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/e5707f3e-e2f6-4583-9897-5c722cbaf81f)
 
-Vídeo, o video do processo de onboarding pode ser visto em:
+Vídeo, o vídeo do processo de onboarding pode ser visto em:
 
 [![Watch the video](https://i9.ytimg.com/vi_webp/8hhOX1ilF9o/mq1.webp?sqp=CMS4x6AG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC4gMCh_MA8=&rs=AOn4CLDki5r-QMwWlO8X_d25cIAlbMol-A)](https://youtu.be/8hhOX1ilF9o)
 
@@ -91,9 +91,9 @@ Ao criar uma operadora, o primeiro passo é criar o gateway e em seguida adicion
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/31849e1b-12e0-43a9-b7ef-b90cd9ca7d26)
 
-**Nome** Ao criar um gateway a primeira coisa que você adiciona é o nome, por exemplo, primario \
+**Nome** Ao criar um gateway a primeira coisa que você adiciona é o nome, por exemplo, primário \
 **Endereço** Em seguida adiciona o endereço e a porta do gateway, por exemplo: sipa.flagonc.com:5600 \
-**Display** Display é a parte em texto do indentificador de chamada, também chamado de FROM diaplay \
+**Display** Display é a parte em texto do identificador de chamada, também chamado de FROM diaplay \
 **Strip de Saída** Remover N dígitos do número e.164 ou original antes de enviar para o gateway \
 **Prefixo de Saída** Adicionar esta string do lado esquerdo do número antes de enviar para o gateway, ocorre após o strip \
 **Strip de Entrada** Remover N dígitos do número que está chegando na porta de entrada do SBC \
@@ -104,7 +104,7 @@ Ao criar uma operadora, o primeiro passo é criar o gateway e em seguida adicion
 **Atributos** Atributos opcionais, reservado para o suporte técnico \
 **Adicionar PAI** - Adicionar o P-Asserted-Identtity. Isto pode ser necessário em algumas operadoras
 
-Ao terminar de prencher salve o gateway e salve a operadora. Se precisar de dois gateways crie os dois antes de salvar. 
+Ao terminar de preencher salve o gateway e salve a operadora. Se precisar de dois gateways crie os dois antes de salvar. 
 
 ## Etapa 3 Criando um plano de serviço
 
@@ -164,7 +164,7 @@ Para criar um tenant é muito simples, você começa adicionando um domínio. Po
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/f30bf22e-12d5-4bb5-8f15-c64d3d3e50a3)
 
-Depois de especificar o domínio, você deve especificar os controladores de cliente, operadora, administradores, plano de discagem e de borda de sessão. É um formulário muito rápido. O SBC compartilhado para o Brasil é sbc-br.wehostvoip.io:60110. Se você necessitar de um SBC não compartilhado entre em contato. Consulte sobre os planos gratuítos. 
+Depois de especificar o domínio, você deve especificar os controladores de cliente, operadora, administradores, plano de discagem e de borda de sessão. É um formulário muito rápido. O SBC compartilhado para o Brasil é sbc-br.wehostvoip.io:60110. Se você necessitar de um SBC não compartilhado entre em contato. Consulte sobre os planos gratuitos. 
 
 ## Etapa 9 Acessando seu tenant
 
@@ -238,7 +238,7 @@ Basta chamar Alice e Bob por seus nomes. Você também pode usar seus apelidos a
 
 ## Etapa 14 Adicionar um país no grupo de segurança
 
-Para evitar fraudes, os assinantes não têm permissão por padrão para fazer chamadas PSTN. Você terá que autorizar os países ou prefixos para permitir chamadas de saída. Nós tornamos esse processo muito fácil. Em nosso cas estamos adicionando EUA. Quando você seleciona EUA, ele seleciona todos os códigos de área da NANPA pertencentes aos EUA e não carrega destinos do Caribe frequentemente usados ​​para fraude.
+Para evitar fraudes, os assinantes não têm permissão por padrão para fazer chamadas PSTN. Você terá que autorizar os países ou prefixos para permitir chamadas de saída. Nós tornamos esse processo muito fácil. Em nosso caso estamos adicionando EUA. Quando você seleciona EUA, ele seleciona todos os códigos de área da NANPA pertencentes aos EUA e não carrega destinos do Caribe frequentemente usados ​​para fraude.
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/9d6c33b4-f11f-42c5-b1e3-e7dbe4fdd8df)
 
@@ -253,7 +253,7 @@ Após adicionar os códigos/países clicar em salvar.
 
 ## Etapa 15 Fazer uma chamada para um destino externo
 
-Disque 22224444, você deve receber uma mensagem engraçada. Como estamos usando ogateway de teste sua chamada não está indo para o PSTN. Se você quiser que sua chamada vá para o PSTN, você deve adicionar sua própria operadora.
+Disque 22224444, você deve receber uma mensagem engraçada. Como estamos usando o gateway de teste sua chamada não está indo para o PSTN. Se você quiser que sua chamada vá para o PSTN, você deve adicionar sua própria operadora.
 
 ## Etapa 16 Testando as chamadas recebidas
 
