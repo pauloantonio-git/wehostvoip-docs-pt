@@ -83,7 +83,7 @@ Vídeo, o vídeo do processo de onboarding pode ser visto em:
 
 [![Watch the video](https://i9.ytimg.com/vi_webp/8hhOX1ilF9o/mq1.webp?sqp=CMS4x6AG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGC4gMCh_MA8=&rs=AOn4CLDki5r-QMwWlO8X_d25cIAlbMol-A)](https://youtu.be/8hhOX1ilF9o)
 
-## Etapa 1 Adicionando uma operadora
+## Etapa 2 Adicionando uma operadora
 
 Agora é hora de especificar onde você terminará suas chamadas. Para este início vamos terminar as chamadas usando um gateway de teste chamado sipa.flagonc.com. Você pode testar as chamadas recebidas registrando um telefone no mesmo servidor. Vou fornecer instruções no ponto certo. Por enquanto vamos criar um gateway e uma operadora. Uma operadora pode ter mais de um gateway para redundância, mas o sistema não faz rota por prefixo. Esta é a função do softswitch ISP ou gateway que encerra as chamadas. Não queríamos ter redundância nessas funções.
 
@@ -164,7 +164,7 @@ Para criar um tenant é muito simples, você começa adicionando um domínio. Po
 
 ![image](https://github.com/pauloantonio-git/wehostvoip-docs-pt/assets/104862214/f30bf22e-12d5-4bb5-8f15-c64d3d3e50a3)
 
-Depois de especificar o domínio, você deve especificar os controladores de cliente, operadora, administradores, plano de discagem e de borda de sessão. É um formulário muito rápido. O SBC compartilhado para o Brasil é sbc-br.wehostvoip.io:60110. Se você necessitar de um SBC não compartilhado entre em contato. Consulte sobre os planos gratuitos. 
+Depois de especificar o domínio, você deve especificar os controladores de cliente, operadora, administradores, plano de discagem e de borda de sessão. É um formulário muito rápido. O SBC compartilhado para o Brasil é **sbc-br.wehostvoip.io:60110**. Se você necessitar de um SBC não compartilhado entre em contato. Consulte sobre os planos gratuitos. 
 
 ## Etapa 9 Acessando seu tenant
 
@@ -230,7 +230,6 @@ Após a instalação, faça login usando o nome de usuário e a senha do **softp
 
 [Utilizando outro Softphone/Telefone](configure-softphones-ip_phones.md)
 
-:doc:`Utilizando outro Softphone/Telefone <sphinx:configure-softphones-ip_phones.md>`
 
 ## Etapa 13 Faça uma chamada entre telefones
 
